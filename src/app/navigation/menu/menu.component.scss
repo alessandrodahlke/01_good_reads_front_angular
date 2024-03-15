@@ -1,0 +1,115 @@
+.promoHeader {
+    height: 370px;
+    padding: 0;
+    position: static;
+    border: 0;
+    background-color: #FFF7E9;
+    background-image: url(/homepageMasthead_Desktop.png);
+    background-position: center 75px;
+    background-repeat: no-repeat;
+    background-size: auto 295px;
+    min-width: 970px;
+}
+
+.uitext {
+    font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+.promoHeader__promoHeaderNav {
+    height: 65px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: static;
+    border: 0;
+    background-position: center;
+    background-repeat: repeat-x;
+    background-color: #f4f2e9;
+}
+
+.promoHeader__promoMastheadContentContainer {
+    margin: 0 auto;
+    text-align: left;
+    width: 970px;
+    position: relative;
+}
+
+.promoHeader__promoMastheadContent {
+    position: absolute;
+    height: 370px;
+    z-index: 1;
+    right: 0;
+    top: 0;
+}
+
+.promoHeader__promoMastheadContent #newAccountBox h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    padding-top: 4px;
+    padding-bottom: 14px;
+    text-align: center;
+}
+
+.promoHeader__promoMastheadContent #newAccountBox #legal {
+    font-size: 12px;
+    text-align: center;
+    font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
+    color: #999999;
+}
+
+.gr-button {
+    border-radius: 3px;
+    border: 1px solid #D6D0C4;
+    font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
+    font-size: 14px;
+    -moz-appearance: none;
+    -o-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    color: #333333;
+    background-color: #F4F1EA;
+    line-height: 1;
+    padding: 8px 12px;
+}
+
+.gr-button--fullWidth {
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+}
+
+.gr-button--auth {
+    font-weight: normal;
+    display: flex;
+    margin-bottom: 16px;
+    align-items: center;
+    justify-content: center;
+    line-height: 2;
+}
+
+.gr-button--amazon {
+    background-color: #f5d47a;
+    color: #000;
+    font-weight: normal;
+    border: 1px solid #B38B22;
+}
+
+.gr-button--apple {
+    background-color: #fff;
+    color: #000;
+    font-weight: normal;
+    border: 1px solid #000;
+}
+
+.gr-button--dark {
+    background-color: #382110;
+    border: 1px solid #382110;
+    color: white;
+    font-weight: normal;
+}
+
+a.gr-button--dark, a.gr-button--red, a.gr-button--teal {
+    color: white;
+}
